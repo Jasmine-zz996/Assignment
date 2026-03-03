@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Boy and the Heron</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      background: url(images/lb5.jpg) center no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+    <!-- Head area -->
+    <div class="head">
+      <div class="main">
+        <a href="p1.html" class="logo">
+          <img src="images/logo.webp" alt="">
+        </a>
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="index.html">Homepage</a>
+            </li>
+            <li>
+              <a href="jujese.html">Character</a>
+            </li>
+            <li>
+              <a href="juqing.html">Plot</a>
+            </li>
+            <li>
+              <a href="lianxi.html">Contact us</a>
+            </li>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- Head area -->
+
+  <div class="lx">
+    <div class="form">
+      <h3>Contact us</h3>
+      <form action="#">
+        <table cellpadding="10">
+          <tr>
+            <td width="200"><b>Name: </b></td>
+            <td><input type="text" name="name" required></td>
+          </tr>
+          <tr>
+            <td><b>Phone: </b></td>
+            <td><input type="tel" name="phone" required></td>
+          </tr>
+          <tr>
+            <td><b>Gender: </b></td>
+            <td>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Email: </b></td>
+            <td><input type="email" name="email" required></td>
+          </tr>
+          <tr>
+            <td><b>Your favorite film character: </b></td>
+            <td>
+              <select name="favorite_character" required>
+                <option value="牧真人">Mahito Maki</option>
+                <option value="苍鹭">The Grey Heron</option>
+                <option value="雾子">Kiriko</option>
+                <option value="火美">Himi</option>
+                <option value="牧久子">Hisako Maki</option>
+                <option value="牧夏子">	Natsuko Maki</option>
+                <option value="牧胜一">Shoichi Maki</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Channels for watching movies: </b></td>
+            <td>
+              <input type="checkbox" id="cinema" name="channels" value="cinema">
+              <label for="cinema">Cinema</label>
+              <input type="checkbox" id="youku" name="channels" value="youku">
+              <label for="youku">Youku</label>
+              <input type="checkbox" id="iqiyi" name="channels" value="iqiyi">
+              <label for="iqiyi">iQIYI</label>
+              <input type="checkbox" id="bilibili" name="channels" value="bilibili">
+              <label for="bilibili">bilibili</label>
+              <input type="checkbox" id="tencent" name="channels" value="tencent">
+              <label for="tencent">Tencent Video</label>
+              <input type="checkbox" id="other" name="channels" value="other">
+              <label for="other">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td><b>leave words: </b></td>
+            <td><textarea name="message" rows="4" cols="50"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center;">
+              <input type="submit" value="leave word">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Footer Copyright -->
+  <div class="foot">
+    Copyright &copy; 2026 | 君たちはどう生きるか. All Rights Reserved.
+  </div>
+  <!-- Footer Copyright -->
+
+
+</body>
+<script>
+  // 显示行为
+  document.getElementById("menu").onmouseover = function () {
+    document.getElementById("subMenu").style.display = 'block'
+  }
+  document.getElementById("menu").onmouseout = function () {
+    document.getElementById("subMenu").style.display = 'none'
+  }
+</script>
+
+</html>

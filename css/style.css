@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  background: #e6ffbb;
+}
+body {
+  font-family: '幼圆';
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.clear {
+  clear: both;
+}
+img {
+  border: 0;
+  vertical-align: top;
+}
+.main {
+  width: 1200px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+.head {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  z-index: 99;
+}
+.head .logo {
+  height: 80px;
+  float: left;
+}
+.head .logo img {
+  height: 100%;
+}
+.head .nav {
+  float: right;
+}
+.head .nav li {
+  float: left;
+}
+.head .nav li > a {
+  font-size: 20px;
+  line-height: 80px;
+  display: block;
+  color: #fff;
+  padding: 0 20px;
+}
+.head .nav a:hover {
+  background: #112524;
+  color: #fff;
+}
+.head .nav #subMenu {
+  background: #fff;
+  display: none;
+}
+.head .nav #subMenu a {
+  display: block;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+.index .banner-info {
+  width: 100%;
+}
+.index .banner-info .banner {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+.index .banner-info .banner img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+.index .banner-info .banner .banner_pic .pic {
+  display: none;
+}
+.index .banner-info .banner .banner_pic .current {
+  display: block;
+}
+.index .banner-info .banner ol {
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  transform: translateX(-50%);
+}
+.index .banner-info .banner ol .but {
+  float: left;
+  width: 30px;
+  height: 10px;
+  border: 1px solid #fff;
+  background: #000;
+  margin-right: 12px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+.index .banner-info .banner ol li {
+  cursor: pointer;
+}
+.index .banner-info .banner ol .current {
+  background: #fff;
+  float: left;
+  width: 30px;
+  height: 10px;
+  border: 1px solid #fff;
+  margin-right: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+.index .box1 {
+  width: 1200px;
+  margin: 50px auto;
+}
+.index .box1 li {
+  float: left;
+  width: 14%;
+  text-align: center;
+}
+.index .box1 li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: 0.3s;
+  object-fit: cover;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.index .box1 li p {
+  margin: 20px 0;
+}
+.index .box1 li img:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+.index .box2 {
+  padding: 100px 0;
+  background: url(../images/bg2.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.index .box2 h3 {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+.index .box2 .text {
+  width: 1200px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  padding: 50px 100px;
+  font-size: 18px;
+  line-height: 2;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.index .box2 .text p {
+  margin-bottom: 20px;
+}
+.index .box3 {
+  margin: 100px auto;
+}
+.index .box3 .box3-in {
+  width: 1200px;
+  margin: 0 auto;
+}
+.index .box3 .img {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.index .box3 .img img {
+  width: 280px;
+  height: 150px;
+}
+.index .box3 h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.index .box3 .xx {
+  border-radius: 30px;
+  border: 2px solid #0c3921;
+  background: #b7d08c;
+  padding: 50px;
+}
+.index .box3 .xx img {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+.index .box3 .xx table {
+  width: 750px;
+  float: right;
+}
+.index .box3 .xx table td {
+  border-bottom: 1px solid #000;
+  padding: 10px;
+  font-size: 16px;
+  font-family: '微软雅黑';
+}
+.index .box3 .video {
+  margin: 50px auto;
+}
+.index .box3 .video .v {
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+  border: 5px solid #0c3921;
+  background: #0c3921;
+}
+.index .box3 .video .v video {
+  width: 100%;
+}
+.index .box4 {
+  margin: 100px auto;
+  margin-bottom: 0;
+}
+.index .box4 h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.index .box4 img {
+  width: 100%;
+}
+.foot {
+  background: #fff;
+  color: #0c3921;
+  padding: 50px;
+  text-align: center;
+}
+.xinxi {
+  margin: 50px auto;
+  width: 1200px;
+  position: relative;
+}
+.xinxi h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.xinxi .video {
+  width: 100%;
+  margin: 50px auto;
+}
+.xinxi .video video {
+  border-radius: 10px;
+  width: 100%;
+}
+.xinxi li {
+  float: left;
+  width: 23%;
+  margin-left: 20px;
+  height: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+.xinxi li img {
+  width: 100%;
+}
+.xinxi li p {
+  padding: 20px;
+  font-family: '微软雅黑';
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.xinxi .Accordion {
+  margin: 50px auto;
+  border: none;
+}
+.xinxi .Accordion .AccordionPanelTab {
+  background: #0c3921;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid #b7d08c;
+}
+.xinxi .Accordion .AccordionPanelContent {
+  padding: 20px;
+  height: 330px;
+  background: #f2f2f2;
+}
+.xinxi .Accordion .AccordionPanelContent img {
+  float: left;
+  width: 200px;
+  height: 260px;
+  margin-right: 20px;
+}
+.xinxi .Accordion .AccordionPanelContent p {
+  line-height: 2;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color:#697454
+}
+.banner2 {
+  width: 100%;
+  height: 600px;
+}
+.banner2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+h3 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #0c3921;
+  letter-spacing: 10px;
+}
+.zhaopian {
+  padding: 50px;
+  margin: 50px auto;
+  width: 1200px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.zhaopian .img1 {
+  text-align: left;
+}
+.zhaopian .img1 img {
+  height: 300px;
+}
+.zhaopian .img2 {
+  margin: 50px 0;
+  text-align: right;
+}
+.zhaopian .img2 img {
+  height: 150px;
+}
+.zhaopian .img3 {
+  margin: 50px 0;
+  text-align: left;
+}
+.zhaopian .img3 img {
+  height: 150px;
+}
+.zhaopian img {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 200px;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+.zhaopian img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.lx {
+  padding: 150px 0;
+}
+.lx .form {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 900px;
+}
+.lx .form input[type="text"],
+.lx .form input[type="tel"],
+.lx .form input[type="email"],
+.lx .form select,
+.lx .form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.lx .form input[type="radio"],
+.lx .form input[type="checkbox"] {
+  margin-right: 5px;
+}
+.lx .form label {
+  margin-right: 15px;
+}
+.lx .form textarea {
+  resize: vertical;
+}
+.lx .form input[type="submit"] {
+  background-color: #0c3921;
+  width: 200px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.lx .form tr td:nth-child(1) {
+  text-align: right;
+}
+.lx .form td {
+  padding: 10px 0;
+}
+.juese {
+  width: 1200px;
+  margin: 50px auto;
+}
+.juese .js-list a {
+  display: block;
+  float: left;
+  margin-left: 30px;
+  width: 47%;
+  margin-bottom: 50px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.juese .js-list a img {
+  float: left;
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+.juese .js-list a h5 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color:rgb(87, 132, 132)
+}
+.juese .js-list a p {
+  line-height: 1.5;
+  font-size: 14px;
+  text-align: justify;
+}
+.juese .js-list a:hover {
+  color: #0c3921;
+}
+.juese .js-list a:hover img {
+  transform: scale(1.1);
+}
+.yingpian {
+  width: 1200px;
+  margin: 50px auto;
+}
+.dl {
+  padding: 150px 0;
+}
+.dl table {
+  margin: 0 auto;
+  width: 500px;
+}
+.dl p {
+  text-align: center;
+  margin-top: 20px;
+}
+.dl p a {
+  color: red;
+  font-weight: 600;
+}
+.dl .form {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 800px;
+}
+.dl .form input[type="text"],
+.dl .form input[type="password"],
+.dl .form input[type="tel"],
+.dl .form input[type="email"],
+.dl .form select,
+.dl .form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.dl .form input[type="radio"],
+.dl .form input[type="checkbox"] {
+  margin-right: 5px;
+}
+.dl .form label {
+  margin-right: 15px;
+}
+.dl .form input[type="submit"] {
+  background-color: #0c3921;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.dl .form tr td:nth-child(1) {
+  text-align: right;
+}
+.dl .form td {
+  padding: 10px 0;
+}
